@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AR Wedding</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	  <!-- Vendor CSS Files -->
+	  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+	  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+	  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+	  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	  <!Vender JS File>
+	  <script src="assets/vendor/aos/aos.js"></script>
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2">
+					<div id="fh5co-logo"><a href="index.html">#ARWedding<strong></strong></a></div>
+				</div>
+				<div class="col-xs-10 text-right menu-1">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="#fh5co-couple-story">Our Story</a></li>
+						<li><a href="#fh5co-event">Venue Info</a></li>
+					    <li><a href="#fh5co-testimonial">Best Wishes</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+   <!-- Invitation details -->
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(ARpics/background.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>Akshaya &amp; Rajesh</h1>
+							<h2>We Are Getting Married</h2>
+							<div class="simply-countdown simply-countdown-"></div>
+							<p onclick="inviteAlert()" class="notification"><a href="#" class="btn btn-default btn-sm"><b>Save the date</b></a></p>
+							<script>
+								function inviteAlert(){
+									alert("Saved on November 11th 2021 ");
+								}
+							</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Timer Date -->
+	<div id="Timer" style="text-align:center;background:url(ARpics/pinkbg.jpg);">
+		<p style="color:ivory;font-family:URW Chancery L, cursive;font-size:54px;font-weight: bolder;"id="demo"></p>
+	</div>
+	<script>
+		// Set the date we're counting down to
+		var countDownDate = new Date("Nov 11 2021 9:00:00").getTime();
+		
+		// Update the count down every 1 second
+		var x = setInterval(function() {
+		
+		  // Get today's date and time
+		  var now = new Date().getTime();
+		
+		  // Find the distance between now and the count down date
+		  var distance = countDownDate - now;
+		
+		  // Time calculations for days, hours, minutes and seconds
+		  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+		
+		  // Display the result in the element with id="demo"
+		  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+		  + minutes + "m " + seconds + "s ";
+		
+		  // If the count down is finished, write some text
+		  if (distance < 0) {
+			clearInterval(x);
+			document.getElementById("demo").innerHTML = "EXPIRED";
+		  }
+		}, 1000);
+		</script>	
+
+	<div id="fh5co-couple">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2  fh5co-heading animate-box">
+					<img src="ARpics/Groombride.PNG" style="border:5px solid pink">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2>Hello Folks!</h2>
+					<h3>We are glad to invite you to our Wedding Ceremony </h3>
+		</div>
+	</div>
+
+	<!-- AR Love-->
+	<div id="fh5co-couple-story" " style="background:linear-gradient(to top right, #ff99cc 9%, #00cc66 77%);">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box" style="font-style:bold;font-size:large">
+					<span>It's our Kadupul love</span>
+					<h2 style="color:white">Our  Story</h2>
+					<p style="color:white">Blossomed on the edge of July</p>
+					<p style="color:white">We reluctantly met as strangers</p>
+					<p style="color:white">Not knowing God chosen us to be destined life-partners</p>
+					<p style="color:white">Manifesting our pensives to get along</p>
+					<p style="color:white">Unaware of each other's fond is very strong</p>
+					<p style="color:white">Without expectation or perfection</p>
+					<p style="color:white">We enter into our love with full of determination</p>
+					<p style="color:white">Though happiness,struggles,misunderstandings and sorrows conquers extremely</p>
+					<p style="color:white">We never gave up each other's love unconditionally</p>
+					<p style="color:white">So from now we are held forever hand-in-hand</p>
+					<p style="color:white">Learning and travelling via our journey with comprehend.</p><br><br>
+					<p style="text-align:center;font-family:cursive;font-size: xx-large;text-shadow: 2px 2px 10px white;">Akshaya&hearts;Rajesh</p>
+				</div>
+			</div>			
+		</div>
+	</div><br><br>
+    <!-- Wedding events -->
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(ARpics/bg2.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Our Special Events</span>
+					<h2>Wedding Events</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="display-t">
+					<div class="display-tc">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box">
+									<h3>Marriage Ceremony</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>9:00 AM</span>
+										<span>10:30 AM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Thursday 11</span>
+										<span>November, 2021</span>
+									</div>
+									<p><i class="fa fa-map-marker" style="font-size:28px;color:white"></i><br>KMS Mahal,No #1,Pallavaram-Thoraipakkam,200 Feet Radial Rd,Old Pallavaram,Chennai,Tamil Nadu 600117</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box">
+									<h3>Reception Party</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>6:00 PM</span>
+										<span>8:00 PM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Wednesday 10</span>
+										<span>November, 2021</span>
+									</div>
+									<p><i class="fa fa-map-marker" style="font-size:28px;color:white"></i><br>KMS Mahal,No #1,Pallavaram-Thoraipakkam,200 Feet Radial Rd,Old Pallavaram,Chennai,Tamil Nadu 600117</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- Wishes -->
+	<div id="fh5co-testimonial">
+		<div class="container">
+			<div class="row">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<span>Compliments and Wishes</span>
+						<h2>From Family and Friends</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<img src="ARpics/cindrella.png">
+								<p id="hov" style="color:mediumvioletred;font-family: cursive;font-size:larger;"><a href="Hers.html">Her Kits and Kins</a></p>
+							</div>
+							<div class="col-md-6">
+								<img src="ARpics/Princess Charming.jpg">
+								<p id="hov"style="color:mediumvioletred;font-family: cursive;font-size:larger;"><a href="His.html">His Kits and Kins</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <style>
+		#hov :hover{
+  			border: none;
+  			color:purple;
+  			padding: 16px 32px;
+  			text-align: center;
+  			font-size: 16px;
+  			margin: 4px 2px;
+  			opacity: 0.6;
+  			transition: 0.3s;
+			cursor: pointer;
+		}
+	</style>
+   <!-- Notification -->
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Are You Attending?</h2>
+					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-10 col-md-offset-1">
+					<form class="form-inline">
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="name" class="sr-only">Name</label>
+								<input type="name" class="form-control" id="name" placeholder="Name">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="email" class="sr-only">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- Contact Us -->
+	<div id="contact" >
+		<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+			<br><br>
+			<h2>Contact Us</h2>
+			<p>
+				<ul class="fh5co-social-icons">
+					<li><a href="#"><i class="icon-facebook"style="font-size:35px"></i></a></li>
+					<li><a href="#"><i class="icon-instagram" style="font-size:35px"></i></a></li>
+				</ul>
+			</p>
+		</div>
+	</div>
+	<!-- footer -->
+	<footer id="fh5co-footer" role="contentinfo" style="margin-bottom:20%">
+		<div class="container">
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy;  All Rights Reserved.</small> 
+						<small class="block">Designed by <b>Akshaya Devi Maheswaran</b>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+	<script src="js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	<script>
+    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate()
+    });
+
+    //jQuery example
+    $('#simply-countdown-losange').simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: false
+    });
+</script>
+
+	</body>
+</html>
+
