@@ -3,7 +3,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>AR Wedding</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
@@ -72,8 +72,17 @@
 		</div>
 	</nav>
    <!-- Invitation details -->
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(ARpics/background.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
+   
+   <!-- how to adjust backgound -->
+   <style>
+      header{
+		background-image: url(ARpics/Groombride.PNG);
+   
+	  }
+
+   </style>
+	<header id="fh5co-header" class="fh5co-cover col-md-12" role="banner"  data-stellar-background-ratio="0.5" >
+		<div class="overlay"></div> 
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
@@ -93,15 +102,12 @@
 				</div>
 			</div>
 		</div>
-		<style>
-			@media only screen and (max-width: 768px) {
-  				/* For mobile phones: */
-  				header {
-   						 width: 100%;
-  					}
-}
-		</style>
 	</header>
+	<style>
+		body{
+			background-color:ivory;
+		}
+	</style>
 	<!-- Timer Date -->
 	<div id="Timer" style="text-align:center;background:url(ARpics/pinkbg.jpg);">
 		<p style="color:ivory;font-family:URW Chancery L, cursive;font-size:54px;font-weight: bolder;"id="demo"></p>
@@ -140,11 +146,6 @@
 	<div id="fh5co-couple">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-2  fh5co-heading animate-box">
-					<img src="ARpics/Groombride.PNG" style="border:5px solid pink">
-				</div>
-			</div>
-			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Hello Folks!</h2>
 					<h3>We are glad to invite you to our Wedding Ceremony </h3>
@@ -152,6 +153,10 @@
 	</div>
 
 	<!-- AR Love-->
+	<div class="ourpic">
+        <img src="ARpics/background.jpg" style="width:100%;border:2px ;border:5px double pink;border-radius:20%">
+	</div>
+	<br><br>
 	<div id="fh5co-couple-story" " style="background:linear-gradient(to top right, #ff99cc 9%, #00cc66 77%);">
 		<div class="container">
 			<div class="row">
@@ -173,9 +178,11 @@
 				</div>
 			</div>			
 		</div>
-	</div><br><br>
+	</div>
+	</div>
+	<br><br>
     <!-- Wedding events -->
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(ARpics/bg2.jpg);">
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(ARpics/bg2.jpg);height:100%;">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -219,13 +226,39 @@
 									</div>
 									<p><i class="fa fa-map-marker" style="font-size:28px;color:white"></i><br>KMS Mahal,No #1,Pallavaram-Thoraipakkam,200 Feet Radial Rd,Old Pallavaram,Chennai,Tamil Nadu 600117</p>
 								</div>
-							</div>
+							</div> 
+                          
+							<div class="col-md-12 col-sm-12 text-center" >
+								<br><br>
+								<div class="event-wrap animate-box">
+									<h3>Reception Party</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>6:00 PM</span>
+										<span>8:00 PM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Wednesday 10</span>
+										<span>November, 2021</span>
+									</div>
+									<p><i class="fa fa-map-marker" style="font-size:28px;color:white"></i><br>KMS Mahal,No #1,Pallavaram-Thoraipakkam,200 Feet Radial Rd,Old Pallavaram,Chennai,Tamil Nadu 600117</p>
+								</div>
+							</div> 
+							
+
+							
 						</div>
+							
 					</div>
 				</div>
 			</div>
+
+
+			
+			</div>
+			
 		</div>
-	</div>
     <!-- Wishes -->
 	<div id="fh5co-testimonial">
 		<div class="container">
@@ -309,7 +342,7 @@
 		</div>
 	</div>
 	<!-- footer -->
-	<footer id="fh5co-footer" role="contentinfo" style="margin-bottom:20%">
+	<footer id="fh5co-footer" role="contentinfo" style="margin-bottom:20%;color:white;background-color: pink;font-size:26px">
 		<div class="container">
 
 			<div class="row copyright">
@@ -374,4 +407,3 @@
 
 	</body>
 </html>
-
